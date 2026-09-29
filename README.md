@@ -14,6 +14,8 @@ Claude: Drafted it with the facebook-post-generator skill. The first line
         last line. Scheduled on PostOnce for Thu 10:00 on "Rise Bakery".
 ```
 
+Full setup guide with examples: [postonce.to/mcp/facebook](https://postonce.to/mcp/facebook)
+
 ## What you can do
 
 | Ask your agent to | How it works |
