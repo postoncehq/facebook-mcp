@@ -1,0 +1,23 @@
+{
+  "name": "facebook-mcp",
+  "version": "0.1.0",
+  "description": "Facebook MCP server and skills: write, publish and schedule Facebook Page posts, photos and Reels through Facebook's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/facebook-mcp",
+  "skills": "./skills/",
+  "mcpServers": "./codex.mcp.json",
+  "interface": {
+    "displayName": "Facebook MCP",
+    "shortDescription": "Write, publish and schedule Facebook Page posts and Reels.",
+    "longDescription": "Facebook skills for Page posts, Reel scripts, Page descriptions and content calendars, plus publishing and scheduling to Facebook Pages and every other platform PostOnce supports. Publishing goes through Facebook's official API, via PostOnce.",
+    "developerName": "PostOnce",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Write a Facebook post for my Page with these photos and schedule it for Thursday at 10am."
+  }
+}

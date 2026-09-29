@@ -1,0 +1,19 @@
+{
+  "name": "facebook-mcp",
+  "version": "0.1.0",
+  "description": "Facebook MCP server and skills: write, publish and schedule Facebook Page posts, photos and Reels through Facebook's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce",
+    "url": "https://postonce.to"
+  },
+  "homepage": "https://github.com/postoncehq/facebook-mcp",
+  "repository": "https://github.com/postoncehq/facebook-mcp",
+  "license": "MIT",
+  "keywords": [
+    "facebook",
+    "facebook-mcp",
+    "mcp",
+    "social-media",
+    "postonce"
+  ]
+}
