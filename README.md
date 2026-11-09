@@ -29,9 +29,10 @@ Full setup guide with examples: [postonce.to/mcp/facebook](https://postonce.to/m
 | Save a draft to finish later | `create_draft` |
 | Check whether a post went out, and get its URL | `get_post` |
 | Change or cancel a scheduled post | `update_post`, `cancel_post` |
+| See views, likes, comments, shares and saves for your posts | `get_analytics`, `get_post_analytics` |
 | Post the same thing to Facebook and other platforms | Add more targets to `create_post` (Instagram, TikTok, YouTube, LinkedIn, X, Threads, Pinterest, Bluesky) |
 
-Not supported: personal profiles, Groups, Facebook Stories, regular (non-Reel) video posts, mixing photos and video in one post, analytics, reading or replying to comments, Messenger, and editing or deleting posts after they're published. Links in the post text use Facebook's own link preview.
+Not supported: personal profiles, Groups, Facebook Stories, regular (non-Reel) video posts, mixing photos and video in one post, reading or replying to comments, Messenger, and editing or deleting posts after they're published. Links in the post text use Facebook's own link preview.
 
 ## Setup (about a minute)
 
@@ -80,7 +81,7 @@ This server uses Facebook's official API through PostOnce. Your agent talks to P
 Yes, once it's connected to an MCP server that can publish, like this one. Claude writes the post, uploads any photos or video, then calls `create_post`.
 
 **Is it safe for my Facebook account?**
-Yes. Posts go through Meta's official API. Many Facebook MCP servers on GitHub drive a logged-in browser session or an unofficial, scraped API instead, which Meta's terms don't allow and which can get accounts restricted.
+Yes. Posts go through Facebook's official posting API with the permissions you grant when you connect. There's no scraping and no browser session, and you can revoke access any time.
 
 **Do I need a Facebook developer app or API approval?**
 No. PostOnce holds the Facebook API access; you just connect your Page.
