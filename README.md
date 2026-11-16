@@ -4,7 +4,7 @@
 
 Facebook MCP server for Claude, ChatGPT, Cursor and Codex. Your AI agent can write, publish and schedule posts, photos and Reels on your Facebook Page through Facebook's official API. There's no scraping, no browser automation and no Facebook developer app to set up.
 
-It runs on [PostOnce](https://postonce.to)'s hosted MCP server and comes with Facebook skills for Page posts, Reel scripts and content calendars, so your agent knows what works on a Facebook Page before it posts.
+It runs on [PostOnce](https://postonce.to?utm_source=github&utm_campaign=facebook-mcp)'s hosted MCP server and comes with Facebook skills for Page posts, Reel scripts and content calendars, so your agent knows what works on a Facebook Page before it posts.
 
 ```
 You:    Write a Facebook post for our bakery page announcing the new sourdough
@@ -14,7 +14,7 @@ Claude: Drafted it with the facebook-post-generator skill. The first line
         last line. Scheduled on PostOnce for Thu 10:00 on "Rise Bakery".
 ```
 
-Full setup guide with examples: [postonce.to/mcp/facebook](https://postonce.to/mcp/facebook)
+Full setup guide with examples: [postonce.to/mcp/facebook](https://postonce.to/mcp/facebook?utm_source=github&utm_campaign=facebook-mcp)
 
 ## What you can do
 
@@ -36,7 +36,7 @@ Not supported: personal profiles, Groups, Facebook Stories, regular (non-Reel) v
 
 ## Setup (about a minute)
 
-You need a [PostOnce account](https://postonce.to) (free for 7 days, no card) with your Facebook Page connected.
+You need a [PostOnce account](https://postonce.to?utm_source=github&utm_campaign=facebook-mcp) (free for 7 days, no card) with your Facebook Page connected.
 
 **Claude (claude.ai and desktop) and ChatGPT:** add a custom connector with the URL below and sign in with PostOnce. No API key.
 
@@ -44,7 +44,7 @@ You need a [PostOnce account](https://postonce.to) (free for 7 days, no card) wi
 https://postonce.to/mcp
 ```
 
-Step-by-step: [Claude](https://postonce.to/integrations/claude) · [ChatGPT](https://postonce.to/integrations/chatgpt)
+Step-by-step: [Claude](https://postonce.to/integrations/claude?utm_source=github&utm_campaign=facebook-mcp) · [ChatGPT](https://postonce.to/integrations/chatgpt?utm_source=github&utm_campaign=facebook-mcp)
 
 **Claude Code:** install the plugin. It adds the MCP connection and the skills together, and the first time it connects your browser opens to sign in with PostOnce. No API key.
 
@@ -58,7 +58,7 @@ claude plugin marketplace add postoncehq/plugins
 claude plugin install facebook-mcp@postoncehq
 ```
 
-Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code) · [Codex](https://postonce.to/integrations/codex) · [Cursor](https://postonce.to/integrations/cursor)
+Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code?utm_source=github&utm_campaign=facebook-mcp) · [Codex](https://postonce.to/integrations/codex?utm_source=github&utm_campaign=facebook-mcp) · [Cursor](https://postonce.to/integrations/cursor?utm_source=github&utm_campaign=facebook-mcp)
 
 **Any other MCP client:** point it at `https://postonce.to/mcp` (Streamable HTTP) and sign in with PostOnce when it asks. Clients without OAuth can send the header `Authorization: Bearer <your PostOnce API key>` instead (API keys are in [PostOnce preferences](https://postonce.to/dashboard/preferences) and need a paid plan).
 
@@ -93,7 +93,7 @@ No. It posts to Facebook Pages you manage. Facebook's API doesn't allow apps to 
 Yes. Every video posts as a Reel, so send a vertical 9:16 video at least 540×960. You can set the cover with a thumbnail image.
 
 **Is it free?**
-The skills and this repo are free and MIT-licensed. Publishing runs through a PostOnce account, which you can try free for 7 days without entering a card. After that, see [pricing](https://postonce.to/pricing).
+The skills and this repo are free and MIT-licensed. Publishing runs through a PostOnce account, which you can try free for 7 days without entering a card. After that, see [pricing](https://postonce.to/pricing?utm_source=github&utm_campaign=facebook-mcp).
 
 ## Data and privacy
 
